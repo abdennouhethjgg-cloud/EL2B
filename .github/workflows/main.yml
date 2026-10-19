@@ -1,10 +1,10 @@
-name: Abdu
+name: RDP
 on:
   workflow_dispatch:
 jobs:
   secure-rdp:
     runs-on: windows-latest
-    timeout-minutes: 9999999999999999999999
+    timeout-minutes: 3999
     steps:
       - name: Configure Core RDP Settings
         run: |
